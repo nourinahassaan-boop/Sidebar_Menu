@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidebar Dark/Light Themes</title>
+
+  <!-- Remix Icon -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../css/Sidebar_Dark-Light Themes.css" />
+
+  <!-- jQuery (optional, not required for your code but safe) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="site-nav">
+        <button class="sidebar-toggle">
+            <span class="ri-menu-line">menu</span>
+        </button>
+    </nav>
+
+<div class="container">
+      <aside class="sidebar collapsed">
+    <header class="sidebar-header">
+      <img src="../img/logo.jpg" alt="Logo" class="header-logo" />
+      <button class="sidebar-toggle" aria-label="Toggle Sidebar">
+        <span class="ri-arrow-left-s-line"></span>
+      </button>
+    </header>
+
+    <div class="sidebar-content">
+      <form action="#" class="search-form">
+        <span class="ri-search-line"></span>
+        <input type="search" placeholder="Search" required />
+      </form>
+
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="#" class="menulink active">
+            <span class="ri-dashboard-line"></span>
+            <span class="menu-label">Dashboard</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menulink">
+            <span class="ri-star-line"></span>
+            <span class="menu-label">Favorite</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menulink">
+            <span class="ri-notification-line"></span>
+            <span class="menu-label">Notifications</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menulink">
+            <span class="ri-line-chart-line"></span>
+            <span class="menu-label">Analytics</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menulink">
+            <span class="ri-store-line"></span>
+            <span class="menu-label">Products</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menulink">
+            <span class="ri-group-line"></span>
+            <span class="menu-label">Customers</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menulink">
+            <span class="ri-settings-2-line"></span>
+            <span class="menu-label">Settings</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="sidebar-footer">
+      <button class="theme-toggle" aria-label="Toggle Theme">
+        <div class="theme-label">
+          <span class="ri-moon-line theme-icon"></span>
+          <span class="theme-text">Dark Mode</span>
+        </div>
+        <div class="theme-toggle-track">
+          <div class="theme-toggle-indicator"></div>
+        </div>
+      </button>
+    </div>
+  </aside>
+  <div class="main-content">
+    <h1 class="page-title">Dashboard Overview</h1>
+    <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Voluptate perspiciatis recusandae eos.
+         Voluptate perspiciatis recusandae eos
+        it amet consectetur adipisicing elit.</p>
+  </div>
+</div>
+  <!-- Custom JS -->
+  <script src="../js/Sidebar_Dark-Light Themes.js"></script>
+</body>
+</html>
